@@ -1,14 +1,7 @@
 // RISCV32I CPU top module
 // port modification allowed for debugging purposes
 
-`include "MC.v"
-`include "IF.v"
-`include "ID.v"
-`include "ALU.v"
-`include "LSB.v"
-`include "RS.v"
-`include "ROB.v"
-`include "RF.v"
+`include "Def.v"
 
 module cpu(input wire           clk_in,
            input wire           rst_in,
